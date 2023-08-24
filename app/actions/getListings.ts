@@ -1,7 +1,7 @@
 import prisma from '@/app/libs/prismadb';
 
 export interface IListingParams {
-  userId?: string | null;
+  userId?: string;
   guestCount?: number;
   roomCount?: number;
   bathroomCount?: number;
